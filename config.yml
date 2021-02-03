@@ -1,0 +1,9 @@
+- hosts: tag_Name_loadBalancer
+  roles:
+    - role: haproxy_LB
+
+
+- hosts: tag_Name_webserver
+  roles:
+    - role: webserver
+
